@@ -7,7 +7,7 @@ resource "azurerm_windows_web_app" "example" {
   site_config {
     application_stack {
               current_stack                = "dotnet"
-              dotnet_version               = "v7.0"
+              dotnet_version               = "v6.0"
             }
   }
 }
